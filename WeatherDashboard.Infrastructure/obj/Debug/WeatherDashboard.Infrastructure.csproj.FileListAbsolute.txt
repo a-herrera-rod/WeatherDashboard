@@ -1,0 +1,9 @@
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure\bin\Debug\WeatherDashboard.Infrastructure.dll
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure\bin\Debug\WeatherDashboard.Infrastructure.pdb
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure\bin\Debug\Newtonsoft.Json.dll
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure\bin\Debug\WeatherDashboard.Core.dll
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure\bin\Debug\WeatherDashboard.Core.pdb
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure\bin\Debug\Newtonsoft.Json.xml
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure\obj\Debug\WeatherDashboard.Infrastructure.csprojResolveAssemblyReference.cache
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure\obj\Debug\WeatherDashboard.Infrastructure.dll
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure\obj\Debug\WeatherDashboard.Infrastructure.pdb

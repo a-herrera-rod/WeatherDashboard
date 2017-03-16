@@ -1,0 +1,1 @@
+﻿var serviceUrl = "http://localhost:51456/services/";

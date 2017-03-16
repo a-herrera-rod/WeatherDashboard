@@ -1,0 +1,5 @@
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Core\bin\Debug\WeatherDashboard.Core.dll
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Core\bin\Debug\WeatherDashboard.Core.pdb
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Core\obj\Debug\WeatherDashboard.Core.csprojResolveAssemblyReference.cache
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Core\obj\Debug\WeatherDashboard.Core.dll
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Core\obj\Debug\WeatherDashboard.Core.pdb

@@ -1,0 +1,13 @@
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure.DependencyInjection\bin\Debug\WeatherDashboard.Infrastructure.DependencyInjection.dll
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure.DependencyInjection\bin\Debug\WeatherDashboard.Infrastructure.DependencyInjection.pdb
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure.DependencyInjection\bin\Debug\Ninject.dll
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure.DependencyInjection\bin\Debug\WeatherDashboard.Core.dll
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure.DependencyInjection\bin\Debug\WeatherDashboard.Infrastructure.dll
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure.DependencyInjection\bin\Debug\Newtonsoft.Json.dll
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure.DependencyInjection\bin\Debug\WeatherDashboard.Core.pdb
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure.DependencyInjection\bin\Debug\WeatherDashboard.Infrastructure.pdb
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure.DependencyInjection\bin\Debug\Ninject.xml
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure.DependencyInjection\bin\Debug\Newtonsoft.Json.xml
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure.DependencyInjection\obj\Debug\WeatherDashboard.Infrastructure.DependencyInjection.csprojResolveAssemblyReference.cache
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure.DependencyInjection\obj\Debug\WeatherDashboard.Infrastructure.DependencyInjection.dll
+W:\Tests\WeatherDashboard\WeatherDashboard\WeatherDashboard.Infrastructure.DependencyInjection\obj\Debug\WeatherDashboard.Infrastructure.DependencyInjection.pdb

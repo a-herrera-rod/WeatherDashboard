@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Dashboard</title>
+	<meta charset="utf-8" />
+
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../css/main.css" rel="stylesheet" />
+    
+</head>
+<body ng-app="app" ng-controller="mainController" data-ng-init="init()">
+    <div class="jumbotron text-center small-controls-panel">
+        <div>
+            Select your weather provider:
+            <br />
+            <select class="btn" ng-model="selectedProvider" ng-options="x.getName() for x in providerList" ng-change="getForecast()">            
+            </select>
+        </div>
+        <div>
+            Select your city:
+            <br />
+            <select class="btn" ng-model="selectedCity" ng-options="x.getName() for x in cityList" ng-change="getForecast()"></select>
+        </div>    
+        <div class="borders">
+            <button type="button" class="btn btn-primary btn-lg" ng-click="changeUnits()">Change to °{{unit == "F" ? "C" : "F"}}</button>        
+        </div>
+        <br />        
+    </div>    
+    <div class="panel panel-default">
+        <div id="Now" class="panel-heading text-center">
+            <h3 class="bold">Right Now</h3>
+            <img ng-src="../../img/{{forecast.getIcon()}}-icon.png" class="weather-icon" />
+            <br />
+            <span class="bold" ng-bind="forecast.getTemperature(unit)"></span>°{{unit}}
+            <br />
+            <span ng-bind="forecast.getStatus()"></span>
+        </div>
+        <div class="container panel-body">
+            <div class="row">
+                <div class="col-sm-3 text-center borders" ng-repeat="f in forecast.getDailyForecast()">
+                    <span ng-bind="f.getDay()" class="bold"></span>
+                    <br />
+                    <img ng-src="../../img/{{f.getIcon()}}-icon.png" class="weather-icon" />
+                    <br />
+                    <strong>Min: </strong><span ng-bind="f.getTemperatureMin(unit)"></span>°{{unit}} -
+                    <strong>Max: </strong><span ng-bind="f.getTemperatureMax(unit)"></span>°{{unit}}
+                    <br />
+                    <span ng-bind="f.getStatus()"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../Scripts/jquery-1.10.2.min.js"></script>    
+    <script src="../../Scripts/angular.min.js"></script>    
+    <script src="../../Scripts/bootstrap.min.js"></script>
+
+    <script src="../Services/services.js"></script>
+    <script src="../app.js"></script>
+    <script src="../config.js"></script>
+    <script src="../Utils/constants.js"></script>
+    <script src="../Utils/utils.js"></script>
+    <script src="../Model/CityModel.js"></script>
+    <script src="../Model/ForecastModel.js"></script>
+    <script src="../Model/DailyForecastModel.js"></script>
+    <script src="../Model/ProviderModel.js"></script>
+    <script src="../Modules/Main/mainController.js"></script>
+    <script src="../Services/weatherService.js"></script>
+</body>
+
+</html>
